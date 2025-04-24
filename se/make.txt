@@ -1,0 +1,7 @@
+cc=gcc
+cflags= -wall -wextra
+all:main
+main:main.c
+	$(cc)$(cflags)main.c -o main
+clean:
+	rm -f main
